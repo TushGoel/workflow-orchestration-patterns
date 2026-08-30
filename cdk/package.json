@@ -1,0 +1,24 @@
+{
+  "name": "workflow-orchestration-patterns",
+  "version": "0.1.0",
+  "bin": {
+    "app": "bin/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "20.x",
+    "aws-cdk": "2.x",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "~5.3.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.x",
+    "constructs": "^10.0.0"
+  }
+}
